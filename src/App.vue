@@ -1,13 +1,11 @@
 <script setup>
-import HerbCard from './components/HerbCard.vue';
+import FuncView from './components/FuncView.vue';
+import InfoView from './components/InfoView.vue';
 import Sidebar from './components/Sidebar.vue';
 </script>
 
 <template>
     <Sidebar/>
-    <div class="container w-full m-auto flex flex-col ">
-        <HerbCard/>
-        
-    </div>
-
+    <InfoView/>
+    <FuncView/>
 </template>

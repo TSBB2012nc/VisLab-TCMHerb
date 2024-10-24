@@ -18,12 +18,6 @@ div#app {
     flex-direction: row;
 }
 
-div .container {
-    display: flex;
-    flex-direction: row;
-}
 div .sidebar {
     background-color: var(--theme-color-2);
 }
-/* div .herb-card {
-} */
